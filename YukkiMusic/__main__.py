@@ -54,10 +54,10 @@ async def init():
     await userbot.start()
     await Yukki.start()
     await Yukki.decorators()
-    LOGGER("FerdiftMusic").info("FerdiftMusic Bot Started Successfully")
+    LOGGER("YukkiMusic").info("YukkiMusic Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     asyncio.get_event_loop_policy().get_event_loop().run_until_complete(init())
-    LOGGER("FerdiftMusic").info("Stopping FerdiftMusic Bot! GoodBye")
+    LOGGER("YukkiMusic").info("Stopping YukkiMusic Bot! GoodBye")
